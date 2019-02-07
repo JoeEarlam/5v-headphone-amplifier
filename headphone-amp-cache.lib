@@ -133,11 +133,11 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# custom_TMAxxxxD
+# headphone-amp-rescue_TMAxxxxD-custom
 #
-DEF custom_TMAxxxxD U 0 40 Y Y 1 F N
+DEF headphone-amp-rescue_TMAxxxxD-custom U 0 40 Y Y 1 F N
 F0 "U" -400 450 50 H V L CNN
-F1 "custom_TMAxxxxD" -400 350 50 H V L CNN
+F1 "headphone-amp-rescue_TMAxxxxD-custom" -400 350 50 H V L CNN
 F2 "" 100 -100 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

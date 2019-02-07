@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L custom:TMAxxxxD U2
+L headphone-amp-rescue:TMAxxxxD-custom U2
 U 1 1 5C5A5764
 P 4150 2350
 F 0 "U2" H 4150 2825 50  0000 C CNN
@@ -85,37 +85,37 @@ Wire Wire Line
 $Comp
 L Connector:AudioJack4 J1
 U 1 1 5C5A5EA8
-P 1825 3550
-F 0 "J1" H 1495 3433 50  0000 R CNN
-F 1 "AudioJack4" H 1495 3524 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 1825 3550 50  0001 C CNN
-F 3 "~" H 1825 3550 50  0001 C CNN
-	1    1825 3550
+P 2100 3850
+F 0 "J1" H 1770 3733 50  0000 R CNN
+F 1 "AudioJack4" H 1770 3824 50  0000 R CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 2100 3850 50  0001 C CNN
+F 3 "~" H 2100 3850 50  0001 C CNN
+	1    2100 3850
 	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5C5A5F4D
-P 2075 3700
-F 0 "#PWR0101" H 2075 3450 50  0001 C CNN
-F 1 "GND" H 2080 3527 50  0000 C CNN
-F 2 "" H 2075 3700 50  0001 C CNN
-F 3 "" H 2075 3700 50  0001 C CNN
-	1    2075 3700
+P 2350 4000
+F 0 "#PWR0101" H 2350 3750 50  0001 C CNN
+F 1 "GND" H 2355 3827 50  0000 C CNN
+F 2 "" H 2350 4000 50  0001 C CNN
+F 3 "" H 2350 4000 50  0001 C CNN
+	1    2350 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2075 3700 2075 3650
+	2350 4000 2350 3950
 Wire Wire Line
-	2075 3650 2025 3650
-Text Label 2075 3350 0    50   ~ 0
+	2350 3950 2300 3950
+Text Label 2350 3650 0    50   ~ 0
 Left_in
-Text Label 2075 3450 0    50   ~ 0
+Text Label 2350 3750 0    50   ~ 0
 Right_in
 Wire Wire Line
-	2075 3350 2025 3350
+	2350 3650 2300 3650
 Wire Wire Line
-	2025 3450 2075 3450
+	2300 3750 2350 3750
 Text Label 3375 3175 2    50   ~ 0
 Left_in
 Wire Wire Line
@@ -325,37 +325,37 @@ Right_out
 $Comp
 L Connector:AudioJack4 J2
 U 1 1 5C5AB90E
-P 6250 3900
-F 0 "J2" H 5920 3783 50  0000 R CNN
-F 1 "AudioJack4" H 5920 3874 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 6250 3900 50  0001 C CNN
-F 3 "~" H 6250 3900 50  0001 C CNN
-	1    6250 3900
+P 6075 3875
+F 0 "J2" H 5745 3758 50  0000 R CNN
+F 1 "AudioJack4" H 5745 3849 50  0000 R CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 6075 3875 50  0001 C CNN
+F 3 "~" H 6075 3875 50  0001 C CNN
+	1    6075 3875
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 5C5AB915
-P 6000 4050
-F 0 "#PWR0109" H 6000 3800 50  0001 C CNN
-F 1 "GND" H 6005 3877 50  0000 C CNN
-F 2 "" H 6000 4050 50  0001 C CNN
-F 3 "" H 6000 4050 50  0001 C CNN
-	1    6000 4050
+P 5825 4025
+F 0 "#PWR0109" H 5825 3775 50  0001 C CNN
+F 1 "GND" H 5830 3852 50  0000 C CNN
+F 2 "" H 5825 4025 50  0001 C CNN
+F 3 "" H 5825 4025 50  0001 C CNN
+	1    5825 4025
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 4050 6000 4000
+	5825 4025 5825 3975
 Wire Wire Line
-	6000 4000 6050 4000
-Text Label 6000 3700 2    50   ~ 0
+	5825 3975 5875 3975
+Text Label 5825 3675 2    50   ~ 0
 Left_out
-Text Label 6000 3800 2    50   ~ 0
+Text Label 5825 3775 2    50   ~ 0
 Right_out
 Wire Wire Line
-	6000 3700 6050 3700
+	5825 3675 5875 3675
 Wire Wire Line
-	6050 3800 6000 3800
+	5875 3775 5825 3775
 $Comp
 L Connector:Conn_01x02_Male J3
 U 1 1 5C5AEB8B
